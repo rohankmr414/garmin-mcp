@@ -1,0 +1,5 @@
+# Copy to .dev.vars for local `wrangler dev`. Do NOT commit .dev.vars.
+# In production these are Cloudflare secrets (npx wrangler secret put NAME), not committed.
+
+# Garmin displayName allowlist (get_user_profile -> displayName). Empty = any account allowed.
+OWNER_GARMIN_IDS=
